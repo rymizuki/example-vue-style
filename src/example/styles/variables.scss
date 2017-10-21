@@ -1,0 +1,7 @@
+$color-map: (
+  red: red,
+  blue: blue,
+);
+
+$color-red:  map-get($color-map, 'red');
+$color-blue: map-get($color-map, 'blue');
